@@ -1,0 +1,40 @@
+.img-caption {
+    bottom: 20px;
+    width: 80%;
+    left: 10%;
+}
+
+.item {
+    cursor: pointer;
+}
+
+#popUp {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+#popUpImage {
+
+    width: 50%;
+    height: 500px;
+    padding: 15px;
+    background-image: url(../images/portfolio-1.jpg);
+    background-position: center;
+    position: relative;
+}
+
+#close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+i {
+    font-size: 20px;
+    cursor: pointer;
+}
